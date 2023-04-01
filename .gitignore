@@ -1,0 +1,6 @@
+/node_modules
+/dist
+/build
+.swc
+.DS_Store
+.mpa
