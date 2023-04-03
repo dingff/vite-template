@@ -8,10 +8,7 @@ export default defineConfig({
   appType: 'mpa',
   plugins: [
     react(),
-    mpa({
-      // It will set root to 'node_modules/.mpa'
-      tempDir: 'node_modules/.mpa',
-    }),
+    mpa(),
   ],
   resolve: {
     alias: {
